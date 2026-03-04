@@ -1,0 +1,16 @@
+Your task is to develop a knowledge graph management workbench. This consists of the following
+1. React based UI 
+2. All UI is modularized and goes into UI folder 
+3. All backend related to serve this UI goes into folder named src 
+4. There will be resources folder which will have requied config and other resources required. 
+5. This will be web application with react front end and python backend. 
+6. Python backend is based on FastAPI
+7. Create a scaffolding to develop this web app. 
+
+Web App Functionality.
+1 . it will have UI to take data files in CSV or excel and ontology under the step 1 of upload files
+2. Step 2 will have functionality to display a table that consists of each column from CSV or excel sheet. and related to mapping to the ontology file give
+3. and it you use google Gemini llm to map the data sources columns (CSV or excel sheet) to the ontology. When the user clicks on Continue from step 1 it should automcatially take the data source files and ontoloyg and prompt Gemini llm to get the mapping. 
+4. Gemini output is mapped to the data source columns appropriately as entitty or property ot object property relation
+5. User should able to edit the llm mapping and save these files to server. 
+6. when the user clicks on continue flow goes to Step 3, to generate the python code and intermediate mapping to translate data file to ontology based on the mapping done in Step 2.

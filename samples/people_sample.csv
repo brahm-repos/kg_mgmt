@@ -1,0 +1,3 @@
+person_id,name,age,company,company_industry,company_location,skills
+p1,"John Doe",35,"Acme Corporation","Technology","San Francisco","Python;JavaScript"
+p2,"Jane Smith",28,"TechStart Inc.","Software","New York","Java;Python"
